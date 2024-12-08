@@ -149,6 +149,26 @@ ul li {
     color: #fff;
 }
 
+.home-btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #ccc;
+    color: #000;
+    position: absolute; /* Allows precise positioning */
+    top: 10px; /* Distance from the top edge of the page */
+    left: 10px; /* Distance from the left edge of the page */
+    padding: 10px 20px; /* Optional: Adds space inside the button */
+    border: none; /* Optional: Removes any default border */
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 25px;
+}
+
+.home-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
 /*Your list button */
 
 #your-list-button {
