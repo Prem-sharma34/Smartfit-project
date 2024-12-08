@@ -1,12 +1,13 @@
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .chat-container {
@@ -19,70 +20,70 @@ body {
 }
 
 .chat-header {
-  background-color: #ff5722; /* Updated theme color */
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
+    background-color: #0084ff;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
 }
 
 .chat-messages {
-  flex: 1;
-  padding: 15px;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  scroll-behavior: smooth;
-  background-color: #fbe9e7; /* Light shade of theme color for messages area */
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    scroll-behavior: smooth;
+    background-color: #e5ddd5;
 }
 
 .chat-message {
-  max-width: 70%;
-  padding: 10px 15px;
-  border-radius: 15px;
-  font-size: 14px;
-  line-height: 1.4;
-  display: inline-block;
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    display: inline-block;
 }
 
 .bot-message {
-  align-self: flex-start;
-  background-color: #f0f0f0;
-  color: #000;
+    align-self: flex-start;
+    background-color: #f0f0f0;
+    color: #000;
 }
 
 .user-message {
-  align-self: flex-end;
-  background-color: #ff5722; /* Updated theme color for user messages */
-  color: #fff;
+    align-self: flex-end;
+    background-color: #0084ff;
+    color: #fff;
 }
 
 .chat-footer {
-  background-color: #fce4ec; /* Light contrasting color for footer */
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-top: 1px solid #ccc;
+    background-color: #f0f2f5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #ccc;
 }
 
 .suggestions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
 }
 
 .chat-button {
-  padding: 10px 15px;
-  background-color: #fbe9e7; /* Light shade of theme color for buttons */
-  color: #000;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  font-size: 14px;
+    padding: 10px 15px;
+    background-color: #e5e5e5;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .chat-button:hover {
@@ -90,28 +91,28 @@ body {
 }
 
 .input-section {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #chat-input {
-  flex: 1;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
 }
 
 #send-btn {
-  background-color: #ff5722; /* Updated theme color for send button */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 #send-btn:hover {
@@ -128,10 +129,10 @@ body {
 .exercise-btn {
     position: absolute;
     top: 10px;
-    background-color: #e2640f;
+    background-color: #0084ff;
     color: white;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
@@ -149,5 +150,5 @@ body {
 /* Hover effect for buttons */
 .home-btn:hover,
 .exercise-btn:hover {
-    background-color: #ff7f1e;
+    background-color: #005bb5;
 }

@@ -19,6 +19,34 @@ The application is built with Flask (Python) for the backend and uses HTML, CSS,
 - **Responsive Design**: The layout is responsive and adjusts based on the screen size. On smaller screens, the cards stack vertically.
 
 ## Folder Structure
+```bash
+├── README.md
+├── app.py
+├── backend.js
+├── chatbot
+│   ├── node_modules
+│   └── package.json
+├── data.py
+├── database.db
+├── static
+│   ├── css
+│   │   ├── exercise.css
+│   │   ├── home.css
+│   │   ├── sign.css
+│   │   └── styles.css
+│   ├── js
+│   │   ├── app.js
+│   │   └── sign.js
+├── templates
+│   ├── chatbot.html
+│   ├── exercise.html
+│   ├── home.html
+│   ├── login.html
+│   ├── main.html
+│   └── signup.html
+└── venv
+
+```
 
 
 
