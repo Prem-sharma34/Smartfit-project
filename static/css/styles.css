@@ -1,7 +1,8 @@
 /* Base styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #f0f2f5;
     height: 100vh;
     display: flex;
@@ -21,6 +22,8 @@ body {
 }
 
 .chat-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #0084ff;
     color: white;
     font-size: 20px;
@@ -31,6 +34,8 @@ body {
 
 .chat-messages {
     flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     padding: 15px;
     overflow-y: auto;
     display: flex;
@@ -41,27 +46,35 @@ body {
 }
 
 .chat-message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     max-width: 70%;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 0px;
     font-size: 14px;
     line-height: 1.4;
     display: inline-block;
 }
 
 .bot-message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     align-self: flex-start;
     background-color: #f0f0f0;
     color: #000;
 }
 
 .user-message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     align-self: flex-end;
     background-color: #0084ff;
     color: #fff;
 }
 
 .chat-footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #f0f2f5;
     padding: 10px;
     display: flex;
@@ -71,6 +84,8 @@ body {
 }
 
 .suggestions {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -78,11 +93,13 @@ body {
 }
 
 .chat-button {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px 15px;
     background-color: #e5e5e5;
     color: #000;
     border: none;
-    border-radius: 15px;
+    border-radius: 0px;
     cursor: pointer;
     font-size: 14px;
 }
@@ -92,26 +109,32 @@ body {
 }
 
 .input-section {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 #chat-input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     flex: 1;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 0px;
     outline: none;
 }
 
 #send-btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #0084ff;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 0px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -125,10 +148,10 @@ body {
 .exercise-btn {
     position: absolute;
     top: 10px;
-    background-color: #0084ff;
-    color: white;
+    background-color: #ccc;
+    color: #000;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
@@ -146,5 +169,6 @@ body {
 /* Hover effect for buttons */
 .home-btn:hover,
 .exercise-btn:hover {
-    background-color: #005bb5;
+    background-color: #000;
+    color: #fff;
 }
