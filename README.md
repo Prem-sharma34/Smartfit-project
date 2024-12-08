@@ -74,7 +74,7 @@ Installing the Virtual enviornment
 python -m venv venv
 ```
 
-#FormacoS (entering into )
+#FormacoS (entering into enviornment)
 ```bash
 source venv/bin/activate
 ```
