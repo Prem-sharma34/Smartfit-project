@@ -2,7 +2,20 @@
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "body-parse": "^0.1.0",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
-  }
+  },
+  "name": "smartfit-project",
+  "description": "# Exercise Details Web Application",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"python3 app.py\" \"node backend.js\""
+  },
+  "author": "",
+  "license": "ISC"
 }
