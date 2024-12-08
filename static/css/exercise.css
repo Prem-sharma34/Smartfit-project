@@ -149,6 +149,26 @@ ul li {
     color: #fff;
 }
 
+.home-btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #ccc;
+    color: #000;
+    position: absolute; /* Allows precise positioning */
+    top: 10px; /* Distance from the top edge of the page */
+    left: 10px; /* Distance from the left edge of the page */
+    padding: 10px 20px; /* Optional: Adds space inside the button */
+    border: none; /* Optional: Removes any default border */
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 25px;
+}
+
+.home-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
 /*Your list button */
 
 #your-list-button {
@@ -177,8 +197,6 @@ ul li {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     z-index: 999;
@@ -187,7 +205,6 @@ ul li {
 .todo-list-content {
     background: #ccc;
     padding: 20px;
-    border-radius: 0px;
     width: 400px;
     text-align: center;
     position: relative;
