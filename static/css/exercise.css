@@ -193,18 +193,16 @@ ul li {
 
 /* To-Do List Modal */
 .todo-list-modal {
-    /* background-color: #000;   */
-    /* size-adjust: 2000px; */
-    margin-left: 1000px;
-    margin-top: 350px;
-    
-    display: fixed;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    width: 40%;
-    height: 10%;
+    width: 35%;
+    height: 35%;
     z-index: 999;
+    top: 10; 
+    right: 0; 
+    margin: 10px;
 }
 
 .todo-list-content {
