@@ -195,15 +195,15 @@ ul li {
 .todo-list-modal {
     /* background-color: #000;   */
     /* size-adjust: 2000px; */
-    margin-left: 1000px;
-    margin-top: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
     
     display: fixed;
     justify-content: center;
     align-items: center;
     position: fixed;
     width: 40%;
-    height: 10%;
+    height: 20%;
     z-index: 999;
 }
 
