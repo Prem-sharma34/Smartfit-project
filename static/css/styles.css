@@ -1,7 +1,8 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #f0f2f5;
     height: 100vh;
     display: flex;
@@ -11,15 +12,18 @@ body {
 }
 
 .chat-container {
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .chat-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #0084ff;
     color: white;
     font-size: 20px;
@@ -30,6 +34,8 @@ body {
 
 .chat-messages {
     flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     padding: 15px;
     overflow-y: auto;
     display: flex;
@@ -40,6 +46,8 @@ body {
 }
 
 .chat-message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     max-width: 70%;
     padding: 10px 15px;
     border-radius: 15px;
@@ -49,18 +57,24 @@ body {
 }
 
 .bot-message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     align-self: flex-start;
     background-color: #f0f0f0;
     color: #000;
 }
 
 .user-message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     align-self: flex-end;
     background-color: #0084ff;
     color: #fff;
 }
 
 .chat-footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #f0f2f5;
     padding: 10px;
     display: flex;
@@ -70,6 +84,8 @@ body {
 }
 
 .suggestions {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -77,6 +93,8 @@ body {
 }
 
 .chat-button {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px 15px;
     background-color: #e5e5e5;
     color: #000;
@@ -91,12 +109,16 @@ body {
 }
 
 .input-section {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 #chat-input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     flex: 1;
     padding: 10px;
     font-size: 16px;
@@ -106,6 +128,8 @@ body {
 }
 
 #send-btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: #0084ff;
     color: #fff;
     padding: 10px 20px;

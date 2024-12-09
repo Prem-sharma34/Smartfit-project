@@ -59,7 +59,45 @@ For macos
 sudo npm install express body-parser cors @google/generative-ai dotenv
 ```
 
-For windows 
+For windows
 ```bash
 npm install express body-parser cors @google/generative-ai dotenv
+```
+
+
+MOST IMPORTANT (WITHOUT IT THE APP WON'T RUN)
+
+Creating a virtual Enviornmnet
+
+Installing the Virtual enviornment
+```bash
+python -m venv venv
+```
+
+#FormacoS (entering into enviornment)
+```bash
+source venv/bin/activate
+```
+
+#forwindows (make sure you are in cmd)
+```bash
+venv\Scripts\activate
+```
+
+
+
+DEBUGGER//
+
+ERROR
+```bash
+[0] Traceback (most recent call last):
+[0]   File "/Users/suryanshkapoor/Developer/december/smartfit/Smartfit-project/app.py", line 1, in <module>
+[0]     from flask import Flask, render_template, request, url_for,flash,redirect,flash , session
+[0] ModuleNotFoundError: No module named 'flask'
+[0] python3 app.py exited with code 1
+```
+
+SOLUTION
+```bash
+python3 -m pip install Flask
 ```
