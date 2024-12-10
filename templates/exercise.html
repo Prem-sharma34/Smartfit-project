@@ -13,7 +13,7 @@
     <button id="search-button" onclick="searchExercises()">Search</button>
     
     <!-- "Your List" Button -->
-    <button id="your-list-button" onclick="toggleTodoList()">Your List</button>
+    <button id="your-list-button" onclick="handlebtnclk()">Your List</button>
     <div class="home-btn" onclick="location.href='/chatbot';">Chatbot</div>
 </div>
 
@@ -63,6 +63,14 @@
 </div>
 
 <script>
+
+    function handlebtnclk(){
+        setTimeout(() => {
+            window.alert("TIP: this is fraggable! (Drag from text)",
+            );
+        }, 1200);
+        toggleTodoList()();
+    }
     function showDetails(cardElement) {
         console.log("Exercise clicked");  // Debugging
         const name = cardElement.getAttribute('data-name');
