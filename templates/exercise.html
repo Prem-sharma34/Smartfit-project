@@ -34,6 +34,7 @@
     <div class="exercise-card" data-name="{{ exercise.name }}"
          data-image="{{ exercise.image }}"
          data-description="{{ exercise.description }}"
+         data-equipment="{{exercise.equipment}}"  
          data-steps="{{ exercise.steps|join(';') }}"
          data-muscles="{{ exercise.targeted_muscles|join(';') }}"
          data-benefits="{{ exercise.benefits|join(';') }}"
@@ -53,6 +54,9 @@
 
         <h4>Description</h4>
         <p id="modal-description"></p>
+        <!--for equipment-->
+        <h4>Equipment</h4>
+        <p id="modal-equipment"></p>
         <h4>Steps to Perform</h4>
         <ul id="modal-steps"></ul>
         <h4>Targeted Muscles</h4>
@@ -76,12 +80,14 @@
         const name = cardElement.getAttribute('data-name');
         const image = cardElement.getAttribute('data-image');
         const description = cardElement.getAttribute('data-description');
+        const equipment=cardElement.getAttribute('data-equipment');
         const steps = cardElement.getAttribute('data-steps').split(';');
         const muscles = cardElement.getAttribute('data-muscles').split(';');
         const benefits = cardElement.getAttribute('data-benefits').split(';');
 
         document.getElementById("modal-name").innerText = name;
         document.getElementById("modal-image").src = image;
+        document.getElementById("modal-equipment").innerText = equipment;  
         document.getElementById("modal-description").innerText = description;
 
         const stepsList = document.getElementById("modal-steps");
