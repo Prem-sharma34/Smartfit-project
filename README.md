@@ -99,5 +99,5 @@ ERROR
 
 SOLUTION
 ```bash
-python3 -m pip install Flask
+pip3 install flask
 ```

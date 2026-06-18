@@ -9,8 +9,8 @@ exercises = [
             'Lower your body until your chest nearly touches the floor.',
             'Push your body back up to the starting position.'
         ],
-        'targeted_muscles': ['Chest', 'Triceps', 'Shoulders'],
-        'benefits': ['Builds upper body strength', 'Improves endurance']
+        "targeted_muscles": ["Chest", "Triceps", "Shoulders"],
+        "benefits": ["Builds upper body strength", "Improves endurance"],
     },
     {
         'name': 'Squats',
